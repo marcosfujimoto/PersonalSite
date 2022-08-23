@@ -81,6 +81,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+
     padding: 0 100px;
     height: var(--menu-heigth); 
     background: var(--bg-dark);
@@ -160,15 +161,23 @@ section {
 /*celular*/
 @media (max-width:480px) {
     header .container {
-        padding: 0 15px;
+        padding: 0 40px;
     }
 
+    nav {
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+        top: unset;
+        padding: 0 15px;
+    }
     nav ul a {
         font-size: 12px;
     }
     nav ul a svg {
         display: block;
         margin: 0 auto 10px;
+        color: var(--green);
     }
 
 }
