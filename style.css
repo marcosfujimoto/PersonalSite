@@ -51,6 +51,7 @@ button {
     color: white;
     font-weight: bold;
     font-size: 18px;
+    cursor: pointer;
 }
 
 .secondary-button {
@@ -307,6 +308,37 @@ p {
     margin-bottom: 50px;
 }
 
+.contact {
+    max-width: 700px;
+    margin:150px auto 70px;
+    text-align: center;
+    padding: 0;
+}
+
+.contact h1 {
+    width: fit-content;
+    margin: 0 auto 40px;
+    background: -webkit-linear-gradient(#15cdcb, #5280e2) ;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.contact button {
+    margin: 40px auto;
+    
+}
+
+.contact .social-media {
+    max-width: 360px;
+    margin: 50px auto 0 ;
+    display: flex;
+    justify-content: space-around;
+}
+footer {
+    text-align: center;
+    margin: 40px;
+}
+
 /* Responsividade do site */
 
 /*small desktops*/
@@ -338,7 +370,7 @@ p {
     }
 
     .about-me .img-container {
-        margin: 50px 0;
+        margin: 70px 0;
     }
 
     .services , .portifolio {
@@ -378,15 +410,7 @@ p {
     }
 }
 
-.contact {
-    max-width: 800px;
-    margin:150px auto 70px;
-    text-align: center;
-}
 
-footer {
-    text-align: center;
-}
 
 
 /*tablet */
@@ -443,7 +467,7 @@ footer {
     }
 
     .services {
-        margin: 100px;
+        margin: 70px 0;
     }
 
    .services .services-container, .portifolio-container {
